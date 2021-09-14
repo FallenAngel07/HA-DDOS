@@ -20,8 +20,8 @@ bytes = random._urandom(1490)
 os.system("clear")
 os.system("figlet HeadlessAngel DDOS")
 print
-print "Author   : Fallen Angel"
-print "Team : Headless Angel"
+print ("Author   : Fallen Angel")
+print ("Team : Headless Angel")
 print 
 ip = raw_input("Target IP : ")
 port = input("Enter Port    : ")
