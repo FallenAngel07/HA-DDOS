@@ -43,6 +43,6 @@ while True:
     sock.sendto(bytes, (ip,port))
     sent = sent + 1
     port = port + 1
-    print ("HeadlessAngle :-Sent %s packet to %s through port:%s")%(sent,ip,port)
+    print ("HeadlessAngel :-Sent %s packet to %s through port:%s")%(sent,ip,port)
     if port == 65534:
         exit()
