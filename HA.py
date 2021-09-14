@@ -45,3 +45,4 @@ while True:
     port = port + 1
     print ("HeadlessAngle :-Sent %s packet to %s through port:%s")%(sent,ip,port)
     if port == 65534:
+        exit()
